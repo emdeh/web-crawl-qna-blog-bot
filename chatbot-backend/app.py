@@ -5,7 +5,6 @@ from flask import Flask, request, jsonify
 from ast import literal_eval
 import os
 from dotenv import load_dotenv
-#from openai.embeddings_utils import distances_from_embeddings
 from openai import OpenAI
 
 # Initialize Flask app
