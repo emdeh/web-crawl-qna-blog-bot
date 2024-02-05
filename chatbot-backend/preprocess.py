@@ -9,13 +9,14 @@ import os
 import pandas as pd
 import numpy as np
 from ast import literal_eval
-import openai
+from openai import OpenAI
+
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 from openai.embeddings_utils import distances_from_embeddings, cosine_similarity
 from dotenv import load_dotenv
 
 # Access the OPENAI_API_KEY environment variable
 load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Regex pattern to match a URL
 HTTP_URL_PATTERN = r'^http[s]{0,1}://.+$'
@@ -180,7 +181,9 @@ df.to_csv('data/scraped.csv')
 df.head()
 
 import tiktoken
-import openai
+from openai import OpenAI
+
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # Load the cl100k_base tokenizer which is designed to work with the ada-002 model
 tokenizer = tiktoken.get_encoding("cl100k_base")
@@ -255,7 +258,7 @@ df.n_tokens.hist()
 
 def generate_embeddings(df):
     # Assuming tiktoken and the use of OpenAI's API are setup correctly
-    df['embeddings'] = df['text'].apply(lambda x: openai.Embedding.create(input=x, engine='text-embedding-ada-002')['data'][0]['embedding'])
+    df['embeddings'] = df['text'].apply(lambda x: client.embeddings.create(input=x, engine='text-embedding-ada-002')['data'][0]['embedding'])
     df.to_csv('data/embeddings.csv')
     df.head()
     print("Embeddings generated and saved to 'data/embeddings.csv'.")
