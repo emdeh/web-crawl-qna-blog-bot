@@ -69,7 +69,7 @@ Start the Flask application by running `app.py`.
 # Detailed overview
 
 ## preprocess.py
-g
+
 ### Define a class for HTML Parsing
 
 This code defines a class that will parse HTML and extract hyperlinks.
