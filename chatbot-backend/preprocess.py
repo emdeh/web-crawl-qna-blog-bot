@@ -262,8 +262,7 @@ def generate_embeddings(df):
     # Send the request to the OpenAI API to generate an embedding for the provided text
         response = client.embeddings.create(input=text, model='text-embedding-ada-002')
     
-    # Access the embedding from the response. Since the response structure is known,
-    # we directly navigate to the 'data' list, access its first item, and then the 'embedding' key.
+    # Access the embedding from the response, navigate to the 'data' list, access its first item, and then the 'embedding' key.
         embedding = response['data'][0]['embedding'] if isinstance(response, dict) else response.data[0].embedding
     
         return embedding
