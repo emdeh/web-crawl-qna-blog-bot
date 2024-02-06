@@ -45,3 +45,7 @@ There is another `/requiremnets.txt` in the `/chatbot-backend/` directory, which
 //TO-DO
 
 ### [Continue to documentation...](/detailed-overview/1.%20Introduction.md)
+
+## To do list
+- need to fix doco now due to commit issue and snippets will be wrong
+- need to create flow diagram
