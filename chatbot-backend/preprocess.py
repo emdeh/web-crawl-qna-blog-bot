@@ -10,13 +10,12 @@ import pandas as pd
 import numpy as np
 from ast import literal_eval
 from openai import OpenAI
-
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-from openai.embeddings_utils import distances_from_embeddings, cosine_similarity
+#from openai.embeddings_utils import distances_from_embeddings, cosine_similarity
 from dotenv import load_dotenv
 
 # Access the OPENAI_API_KEY environment variable
 load_dotenv()
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # Regex pattern to match a URL
 HTTP_URL_PATTERN = r'^http[s]{0,1}://.+$'
