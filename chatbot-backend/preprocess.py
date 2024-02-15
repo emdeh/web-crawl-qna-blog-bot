@@ -32,7 +32,7 @@ full_url = "https://emdeh.com/"
 class HyperlinkParser(HTMLParser):
     def __init__(self):
         super().__init__()
-        self.hyperlinks = []
+        self.hyperlinks = [] # Initialises an empty list to store URLs of hyperlinks
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)

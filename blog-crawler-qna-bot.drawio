@@ -1,0 +1,158 @@
+<mxfile host="app.diagrams.net" modified="2024-02-15T01:42:32.550Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="_3npKNcTFE9OZOCgEDg4" version="23.1.1" type="device">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
+    <mxGraphModel dx="1678" dy="933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-2" value="Knowledge" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="460" y="139" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-5" value="Vector DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="277.75" width="120" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-6" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="335.5" width="70" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-7" value="WebApp" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="316.5" width="150" height="182.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-9" value="LLM Endpoint" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-1/24/brain-128.png" vertex="1" parent="1">
+          <mxGeometry x="670" y="589" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-12" value="" style="endArrow=classic;html=1;rounded=1;strokeWidth=2;curved=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="371.24" as="sourcePoint" />
+            <mxPoint x="270" y="371.24" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-15" value="Embeddings model" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/management/process_management.svg;" vertex="1" parent="1">
+          <mxGeometry x="740" y="281.5" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-16" value="" style="endArrow=classic;html=1;rounded=1;strokeWidth=2;curved=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="349" as="sourcePoint" />
+            <mxPoint x="730" y="319" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="349" />
+              <mxPoint x="660" y="319" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-18" value="" style="endArrow=classic;html=1;rounded=1;strokeWidth=2;curved=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="179" as="sourcePoint" />
+            <mxPoint x="770" y="269" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="770" y="179" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-19" value="" style="endArrow=classic;html=1;rounded=1;strokeWidth=2;curved=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="319" as="sourcePoint" />
+            <mxPoint x="990" y="319" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-21" value="" style="endArrow=classic;html=1;rounded=1;strokeWidth=2;curved=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="775" y="377.75" as="sourcePoint" />
+            <mxPoint x="460" y="419" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="775" y="419" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-22" value="" style="endArrow=classic;html=1;rounded=1;strokeWidth=2;curved=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="519" as="sourcePoint" />
+            <mxPoint x="660" y="628" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="628" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-23" value="" style="endArrow=classic;html=1;rounded=1;strokeWidth=2;curved=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="659" as="sourcePoint" />
+            <mxPoint x="350" y="519" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="659" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-24" value="" style="endArrow=classic;html=1;rounded=1;strokeWidth=2;curved=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="459.16" as="sourcePoint" />
+            <mxPoint x="110" y="459.16" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-25" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="560" y="149" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-27" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="820" y="271.5" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-28" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="120" y="338.75" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-29" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="460" y="316.5" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-34" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="520" y="387.75" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-35" value="8" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="410" y="669" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-37" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="410" y="595.25" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-38" value="9" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="120" y="426.16" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-41" value="A knowledge source is processed by an embeddings model." style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontColor=#6c8ec7;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="585" y="139" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-42" value="The knowledge is converted into vector representations (e.g. embeddings) and stored for later retrieval." style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontColor=#6c8ec7;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="850" y="251.5" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-43" value="A prompt is provided to the service." style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontColor=#82b366;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="150" y="330" width="110" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-44" value="The prompt is also processed by an embeddings model." style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontColor=#82b366;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="485" y="310.88" width="160" height="31.25" as="geometry" />
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-45" value="The model returns the vector of the prompt." style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontColor=#82b366;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="550" y="383.5" width="190" height="28.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-46" value="" style="endArrow=classic;html=1;rounded=1;strokeWidth=2;curved=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="459" as="sourcePoint" />
+            <mxPoint x="1010" y="460.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-47" value="" style="endArrow=classic;html=1;rounded=1;strokeWidth=2;curved=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1010" y="479" as="sourcePoint" />
+            <mxPoint x="460" y="479" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-49" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="660" y="430.5" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-50" value="The service compares the vector of the prompt to the vector DB to retrieve the most relevant context." style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontColor=#82b366;fontSize=11;align=right;" vertex="1" parent="1">
+          <mxGeometry x="670" y="425.5" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-51" value="The original prompt, and context and system prompt(?) is passed to the LLM." style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontColor=#9673a6;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="440" y="589" width="200" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-52" value="The LLM provides the completion" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontColor=#9673a6;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="440" y="669" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ohJnVNR_oef8vZkeTYrF-53" value="The LLM provides the completion." style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;fontColor=#9673a6;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="150" y="421.16" width="130" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
